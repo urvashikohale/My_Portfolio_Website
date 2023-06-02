@@ -1,0 +1,77 @@
+.projects{
+    height: 100vh;
+    position: relative;
+    letter-spacing: 0.5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.projTab{
+    padding-top: 10rem;
+}
+
+.projHeading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: #7C4EEE;
+    margin-bottom: 2rem;
+}
+
+.projCards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:2.5rem;
+}
+
+.projCard{
+    background:#FFFFFF;
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: all 400ms ease;
+}
+
+.projCard img{
+        display: block;
+        width: 100%;
+        object-fit: cover;
+}
+.projImage{
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.projCard h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+    color: #7C4EEE;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 650;
+    letter-spacing: 0.6px;
+    }
+
+.projLink{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    /* margin-bottom: 1rem; */
+}
+
+.projLink a{
+    text-decoration: none;
+    /* color:#728394; */
+    color:#393B44;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.projLink a:hover{
+   box-shadow:   0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.10);
+
+}

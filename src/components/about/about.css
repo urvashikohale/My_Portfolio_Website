@@ -1,0 +1,61 @@
+
+
+.about{
+    /* background-image: url(../../assets/three.jpg); */
+    height: 100vh;
+    position: relative;
+    display: flex;
+    letter-spacing: 0.5px;
+  font-family: 'Poppins', sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    /* font-family: 'Nunito', sans-serif; */
+
+}
+.tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    /* background-color:#d9cbfe;  */
+    background-color: #ffffff99;
+    width: 70%;
+    gap: 2rem;
+    /* height: fit-content; */
+    padding: 2rem;
+    margin-top: 10vh;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+   color: #7C4EEE;
+   /* color: black; */
+   /* color:#6B7280; */
+}
+
+.intro{
+    /* display: flex;
+    flex-direction: column; */
+    margin: 0 2rem;
+    font-size: 27px;
+    /* color: #fff; */
+}
+
+.tab span{
+    font-weight: 600;
+     /* color: #6b7484; */
+    /* color: #6B7280; */
+    /* color: #8D93AB; */
+    color: #393B44;
+    color: #2a2c35;
+}
+.brief{
+    /* display: flex;
+    flex-direction: column; */
+    margin: 0 2rem;
+    font-size: 27px;
+    /* color: #6B7280; */
+}

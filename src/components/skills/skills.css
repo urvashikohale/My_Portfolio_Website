@@ -1,0 +1,57 @@
+.skills{
+    /* background-image: url(../../assets/three.jpg); */
+    height: 100vh;
+    position: relative;
+    display: flex;
+    letter-spacing: 0.5px;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.skillTab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color:#d9cbfe;  */
+    background-color: #ffffff99;
+    width: 60%;
+    gap: 2rem;
+    /* height: 50%; */
+    padding: 3rem;
+    /* margin-top: 10vh; */
+}
+
+.skillHeading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+   color: #7C4EEE;
+
+}
+
+.allSkills{
+    flex-wrap: wrap;
+
+    display: flex;
+    flex-direction: row;
+    flex:4;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 1rem;
+}
+
+.btn{
+    background-color: #7C4EEE;
+    /* background: linear-gradient( to right, #FF3C5F 0%, #9340FF 100%); */
+
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 1rem;
+ padding: 1rem;
+}
