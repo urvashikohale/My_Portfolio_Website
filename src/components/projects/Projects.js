@@ -3,7 +3,7 @@ import "./projects.css";
 import Img1 from "../../assets/one.jpg";
 import Ecommerce from "../../assets/Ecommerce.png";
 import Portfolio from "../../assets/Portfolio.png";
-import SocialBook from "../../assets/SocialBook.png";
+import SocialBook from "../../assets/Socialbook.png";
 
 const Projects = () => {
   return (
