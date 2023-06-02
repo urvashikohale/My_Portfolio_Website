@@ -3,6 +3,7 @@ import "./projects.css";
 import Img1 from "../../assets/one.jpg";
 import Ecommerce from "../../assets/Ecommerce.png";
 import Portfolio from "../../assets/Portfolio.png";
+import SocialBook from "../../assets/SocialBook.png";
 
 const Projects = () => {
   return (
@@ -36,7 +37,7 @@ const Projects = () => {
           </article>
           <article className="projCard">
             <div className="projImage">
-              <img src={Img1} alt="image1" />
+              <img src={SocialBook} alt="image1" />
             </div>
             <h3>SocialBook</h3>
             <div className="projLink">
