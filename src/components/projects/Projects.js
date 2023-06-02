@@ -1,6 +1,8 @@
 import React from "react";
 import "./projects.css";
 import Img1 from "../../assets/one.jpg";
+import Ecommerce from "../../assets/Ecommerce.png";
+import Portfolio from "../../assets/Portfolio.png";
 
 const Projects = () => {
   return (
@@ -12,14 +14,22 @@ const Projects = () => {
         <div className="projCards">
           <article className="projCard">
             <div className="projImage">
-              <img src={Img1} alt="image1" />
+              <img src={Ecommerce} alt="image1" />
             </div>
             <h3>E-Commerce Website</h3>
             <div className="projLink">
-              <a href="" className="" target="_blank">
+              <a
+                href="https://github.com/urvashikohale/EcommerceFrontend_Latest"
+                className=""
+                target="_blank"
+              >
                 Code
               </a>
-              <a href="" className="" target="_blank">
+              <a
+                href="https://ecommerce-tshirt-store.onrender.com/"
+                className=""
+                target="_blank"
+              >
                 Demo
               </a>
             </div>
@@ -30,21 +40,29 @@ const Projects = () => {
             </div>
             <h3>SocialBook</h3>
             <div className="projLink">
-              <a href="" className="" target="_blank">
+              <a
+                href="https://github.com/urvashikohale/SocialBook_frontend"
+                className=""
+                target="_blank"
+              >
                 Code
               </a>
-              <a href="" className="" target="_blank">
+              {/* <a href="" className="" target="_blank">
                 Demo
-              </a>
+              </a> */}
             </div>
           </article>
           <article className="projCard">
             <div className="projImage">
-              <img src={Img1} alt="image1" />
+              <img src={Portfolio} alt="image1" />
             </div>
             <h3>Portfolio Website</h3>
             <div className="projLink">
-              <a href="" className="" target="_blank">
+              <a
+                href="https://github.com/urvashikohale/My_Portfolio_Website"
+                className=""
+                target="_blank"
+              >
                 Code
               </a>
               <a href="" className="" target="_blank">

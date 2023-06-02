@@ -115,7 +115,7 @@ const Contact = () => {
         <div className="socialLinks">
           <a
             href="https://github.com/urvashikohale"
-            class="google-plus"
+            className="google-plus"
             target="_blank"
           >
             <i className="link">
@@ -124,7 +124,7 @@ const Contact = () => {
           </a>
           <a
             href="https://www.linkedin.com/in/urvashikohale"
-            class="linkedin"
+            className="linkedin"
             target="_blank"
           >
             <i className="link">
@@ -133,7 +133,7 @@ const Contact = () => {
           </a>
           <a
             href="mailto:kohaleurvashi@gmail.com"
-            class="gmail"
+            className="gmail"
             target="_blank"
           >
             <i className="link">
@@ -142,7 +142,7 @@ const Contact = () => {
           </a>
           <a
             href="https://twitter.com/urvashi_kohale"
-            class="twitter"
+            className="twitter"
             target="_blank"
           >
             <i className="link">
@@ -152,7 +152,7 @@ const Contact = () => {
 
           <a
             href="https://www.facebook.com/urvashikohale/"
-            class="facebook"
+            className="facebook"
             target="_blank"
           >
             <i className="link">

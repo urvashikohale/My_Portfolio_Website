@@ -12,7 +12,7 @@ const Socialicons = () => {
     <div className="icons">
       <a
         href="https://github.com/urvashikohale"
-        class="google-plus"
+        className="google-plus"
         target="_blank"
       >
         <i className="homeIcon">
@@ -21,7 +21,7 @@ const Socialicons = () => {
       </a>
       <a
         href="https://www.linkedin.com/in/urvashikohale"
-        class="linkedin"
+        className="linkedin"
         target="_blank"
       >
         <i className="homeIcon">
@@ -29,14 +29,18 @@ const Socialicons = () => {
           {/* <BsLinkedin /> */}
         </i>
       </a>
-      <a href="mailto:kohaleurvashi@gmail.com" class="gmail" target="_blank">
+      <a
+        href="mailto:kohaleurvashi@gmail.com"
+        className="gmail"
+        target="_blank"
+      >
         <i className="homeIcon" style={{ fontSize: "36px" }}>
           <MdEmail />
         </i>
       </a>
       <a
         href="https://twitter.com/urvashi_kohale"
-        class="twitter"
+        className="twitter"
         target="_blank"
       >
         <i className="homeIcon">
