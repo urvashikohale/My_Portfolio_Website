@@ -65,7 +65,11 @@ const Projects = () => {
               >
                 Code
               </a>
-              <a href="" className="" target="_blank">
+              <a
+                href="https://urvashikohale.netlify.app/"
+                className=""
+                target="_blank"
+              >
                 Demo
               </a>
             </div>
