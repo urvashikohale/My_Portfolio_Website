@@ -74,8 +74,7 @@
     align-items: center;
     justify-content: center;
     margin: auto;
-    background-color: #7C4EEE;
-    border-radius: 40%;
+    /* background-color: #7C4EEE; */
 }
 
 .homeButton {

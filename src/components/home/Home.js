@@ -1,7 +1,7 @@
 import React from "react";
 import "./home.css";
 import Socialicons from "./Socialicons";
-import IMG from "../../assets/laptop.jpg";
+import IMG from "../../assets/transparent.png";
 
 const Home = () => {
   return (
