@@ -59,3 +59,32 @@
     font-size: 27px;
     /* color: #6B7280; */
 }
+
+@media screen and (max-width:768px) {
+    .about{
+        display:flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+    .heading{
+        font-size: 22px;
+    }
+    .tab{
+        display: flex;
+        padding: 1rem;
+        gap:2rem;
+        width: auto;
+        margin-top: 0;
+    }
+    .intro{
+        font-size: 18px;
+        margin: 0 0;
+        text-align: left;
+    }
+    .brief{
+        font-size: 18px;
+        margin: 0 0;
+        text-align: left;
+    }
+
+}

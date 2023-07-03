@@ -203,3 +203,138 @@ flex-direction: row;
    font-weight: 500;
    justify-content:flex-end;
 }
+
+
+
+@media screen and (max-width:768px) {
+   .contactTab>h3{
+      font-size: 13px;
+      padding-left: 5%;
+      padding-right: 5%;
+      font-weight: 400;
+
+   }
+   .contactTab>h1{
+      font-size: 25px;
+   }
+   .contactDiv{
+      flex-direction: column;
+      padding-top: 1rem;
+      gap: 3rem;
+      
+   }
+
+   .contactBtn{
+      padding-left: 5%;
+      padding-right: 5%;
+   }
+   
+   .contactOptions{
+      gap:1rem;
+      /* align-items: center; */
+      padding-left: 5%;
+      padding-right: 5%;
+   }
+   .contactIcon{
+      font-size: 13px;
+      padding: 10px;
+   }
+   .details h4{
+     font-size: 12px;
+     margin-bottom: 1px;
+   }
+   
+   .details p{
+      margin-bottom: 0;
+      font-size: 11px;
+      color: #728394;
+   }
+   .details a{
+      font-size: 12px;
+      margin-top: 1px;
+   }
+   .formm{
+      gap: 1rem;
+      width: auto;
+      padding-left: 5%;
+      padding-right: 7%;
+      
+   }
+   .formm input{
+      padding: 0.8rem;
+      font-size: 12px;
+      letter-spacing: 1px;
+   }
+   
+   .formm textarea{
+      padding: 0.8rem;
+      font-size: 12px;
+   }
+   .contactBtn{
+      padding: 10px 12px;
+      font-size: 13px;
+      text-align: center;  
+   }
+   .footer{
+      margin-top: 1rem;
+      
+      height: fit-content;
+      bottom: 0;
+      padding-bottom: 0;
+      padding-top: 5%;
+      
+   }
+   .footerName{
+      font-size: 15px;
+      position: relative;
+      
+   }
+   .link{
+      font-size: 14px;
+      padding: 7px;
+   }
+   .footer p{
+      font-size: 12px;
+      bottom: 0;
+   }
+   
+   .formm button{
+      display: flex;
+      flex-direction: row;
+      
+      justify-content: center;
+      align-items: center;
+   }
+
+   .contact{
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 0% ;
+      height: fit-content;
+   }
+
+  
+   .footer p{
+      display: flex;
+      padding-top: 5%;
+      padding-bottom: 3%;
+      font-family: 'Poppins', sans-serif;
+      letter-spacing: 0.5px;
+      font-size: 13px;
+      color: #FFFFFF;
+      font-weight: 500;
+      justify-content:center;
+      bottom: 0%;
+   }
+
+   .socialLinks{
+      color: #f67e7e;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 5%;
+      gap: 0.5rem;
+   }
+
+   
+}

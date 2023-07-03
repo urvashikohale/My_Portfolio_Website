@@ -34,7 +34,7 @@ const Socialicons = () => {
         className="gmail"
         target="_blank"
       >
-        <i className="homeIcon" style={{ fontSize: "36px" }}>
+        <i className="homeIcon">
           <MdEmail />
         </i>
       </a>

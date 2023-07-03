@@ -1,3 +1,12 @@
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+
+
+
+
+  
 .skills{
     /* background-image: url(../../assets/three.jpg); */
     height: 100vh;
@@ -53,5 +62,58 @@
     font-size: 20px;
     font-weight: 600;
     border-radius: 1rem;
- padding: 1rem;
+    padding: 1rem;
+}
+
+
+
+
+/*@media (max-width: 992px) {
+    .btn {
+      text-align: center;
+      font-size: 16px;
+      padding: 0.7rem;
+      font-weight: 500;
+    }
+
+    .allSkills{
+        text-align: center; 
+        gap: 1rem;
+    }
+
+    .skillTab{
+        width: 97%;
+    }
+  }
+  */
+  
+
+
+  @media screen and (max-width:768px) {
+   
+    @media (max-width: 992px) {
+        .btn {
+          text-align: center;
+          font-size: 16px;
+          padding: 0.7rem;
+          font-weight: 500;
+        }
+    
+        .allSkills{
+            text-align: center; 
+            gap: 1rem;
+        }
+    
+        .skillTab{
+            width: 97%;
+            padding-bottom: 0%;
+        }
+
+        .skills{
+
+            margin-bottom: 0;
+            height: fit-content;
+        }
+      }
+    
 }

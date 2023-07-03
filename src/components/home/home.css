@@ -75,6 +75,7 @@
     justify-content: center;
     margin: auto;
     /* background-color: #7C4EEE; */
+    /* border-radius: 40%; */
 }
 
 .homeButton {
@@ -122,6 +123,7 @@
     
  }
 
+ /*
  @media screen and (max-width:600px) {
     .home{
         height: auto;
@@ -131,11 +133,11 @@
     .homeRight{
         display: none;
         /* display: flex;
-        flex-direction: row; */
+        flex-direction: row; 
     }
     .homeLeft{
         display: flex;
-        /* flex-direction: row; */
+        /* flex-direction: row; 
     }
     .homeName>h2{
         display: flex;
@@ -143,3 +145,49 @@
     }
 
 }
+*/
+
+@media screen and (max-width:768px) {
+    .home{
+        /* height: auto; */
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        padding-bottom: 20%;
+        padding-top: 10%;
+    } 
+    .homeRight{
+        display: none;
+         /* display: flex; 
+        flex-direction: column;
+       margin-top: 20%;
+       margin-bottom: 0%; */
+
+    }
+    .homeRight>img{
+        width:13rem;
+    }
+    .homeLeft{
+        display: flex;
+        flex-direction: column;
+    }
+    .homeName>h2{
+        display: flex;
+        font-size: 13px;
+    }
+    .homeName>h1{
+        font-size: 33px;
+    }
+    .homeName>:nth-child(3){
+        font-size: 15px;
+    }
+    .homeButton{
+        padding: 9px 13px;
+        font-size: 15px;
+    }
+    .homeIcon{
+        font-size: 1.5rem;
+        top: 0.5rem;
+        gap: 0.5rem;
+    }
+}   

@@ -28,14 +28,14 @@ const Nav = () => {
               <a href="#contact">Contact</a>
             </li>
           </ul>
-          <div className="hamburger">
+          {/* <div className="hamburger">
             <a href="#">
               <GiHamburgerMenu />
-            </a>
-            {/* <span className="bar"></span>
+            </a> */}
+          {/* <span className="bar"></span>
           <span className="bar"></span>
           <span className="bar"></span> */}
-          </div>
+          {/* </div> */}
         </div>
       </div>
     </nav>
