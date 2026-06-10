@@ -23,6 +23,10 @@ const Home = () => {
           </p>
 
           <div className="locationBadge">United States</div>
+
+          <div className="availabilityBadge">
+            Available for 2026 SWE roles
+          </div>
         </div>
 
         <a href="#contact" className="homeButton">
