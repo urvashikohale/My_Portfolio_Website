@@ -8,30 +8,23 @@ const Home = () => {
     <div className="container home" id="home">
       <div className="homeLeft">
         <div className="homeName">
-          <h2 className="hi">Hi there!</h2>
+  <h2 className="hi">Hi there!</h2>
 
-          <h1 className="bigText">
-            I'm <span>Urvashi Kohale</span>
-          </h1>
+  <h1 className="bigText">
+    I'm <span>Urvashi Kohale</span>
+  </h1>
 
-          <div className="wrapper">
-            <div className="staticText">
-              Software Engineer
-            </div>
-          </div>
+  <div className="roleText">Software Engineer</div>
 
-          <div className="subText">
-            Software Engineer with industry experience developing software
-            applications, cloud-based systems, and modern web platforms.
-            Currently pursuing an MS in Software Engineering at San Jose State
-            University.
-          </div>
+  <p className="subText">
+    Software Engineer with industry experience building software applications,
+    cloud-based systems, and modern web platforms. Currently pursuing an MS in
+    Software Engineering at San Jose State University.
+  </p>
 
-          <div className="locationText">
-            United States
-          </div>
-        </div>
-
+  <div className="locationBadge">United States</div>
+</div>
+        
         <a href="#contact" className="homeButton">
           Contact Me
         </a>
