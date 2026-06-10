@@ -8,21 +8,27 @@ const Home = () => {
     <div className="container home" id="home">
       <div className="homeLeft">
         <div className="homeName">
-          <div className="hi">Hi there 👋</div>
+          <h2 className="hi">Hi there!</h2>
 
           <h1 className="bigText">
             I'm <span>Urvashi Kohale</span>
           </h1>
 
-          <div className="roleText">Software Engineer</div>
+          <div className="wrapper">
+            <div className="staticText">
+              Software Engineer
+            </div>
+          </div>
 
           <p className="subText">
-            Software Engineer with industry experience building software applications,
+            Software Engineer with industry experience developing software applications,
             cloud-based systems, and modern web platforms. Currently pursuing an MS in
             Software Engineering at San Jose State University.
           </p>
 
-          <div className="locationBadge">United States</div>
+          <div className="locationBadge">
+            United States
+          </div>
         </div>
 
         <a href="#contact" className="homeButton">
@@ -33,7 +39,7 @@ const Home = () => {
       </div>
 
       <div className="homeRight">
-        <img src={IMG} alt="profile" />
+        <img src={IMG} style={{ width: "30rem" }} alt="profile" />
       </div>
     </div>
   );
