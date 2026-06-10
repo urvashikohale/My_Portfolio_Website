@@ -1,5 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+/* BACKGROUND GLOW (VERCEL STYLE) */
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: -200px;
+    right: -200px;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(124, 78, 238, 0.18), transparent 60%);
+    filter: blur(90px);
+    z-index: 0;
+    pointer-events: none;
+}
+
 /* MAIN LAYOUT */
 .home {
     height: 90vh;
@@ -9,6 +28,8 @@
     font-family: 'Poppins', sans-serif;
     background: #ffffff;
     padding: 0 2rem;
+    position: relative;
+    z-index: 1;
 }
 
 /* LEFT SIDE */
@@ -32,7 +53,7 @@
 .hi {
     font-size: 1rem;
     font-weight: 500;
-    color: #6b7280;
+    color: #111827;
 }
 
 /* NAME */
@@ -54,15 +75,15 @@
 .roleText {
     font-size: 1.1rem;
     font-weight: 500;
-    color: #6b7280;
+    color: #111827;
 }
 
-/* DESCRIPTION */
+/* DESCRIPTION (NO GRAY) */
 .subText {
     font-size: 1rem;
     line-height: 1.7;
     max-width: 560px;
-    color: #4b5563;
+    color: #111827;
 }
 
 /* LOCATION BADGE */
@@ -73,8 +94,23 @@
     font-size: 0.85rem;
     border-radius: 999px;
     background: #f3f4f6;
-    color: #374151;
+    color: #111827;
     border: 1px solid #e5e7eb;
+    width: fit-content;
+}
+
+/* AVAILABILITY BADGE */
+.availabilityBadge {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 12px;
+    font-size: 0.85rem;
+    border-radius: 999px;
+
+    background: rgba(124, 78, 238, 0.12);
+    color: #7c4eee;
+
+    border: 1px solid rgba(124, 78, 238, 0.25);
     width: fit-content;
 }
 
@@ -105,7 +141,7 @@
     transform: translateY(-2px);
 }
 
-/* RIGHT SIDE IMAGE */
+/* RIGHT IMAGE */
 .homeRight {
     flex: 1;
     display: flex;
