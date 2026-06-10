@@ -1,143 +1,128 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
-/* MAIN LAYOUT */
 .home {
     height: 90vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    letter-spacing: 0.5px;
     font-family: 'Poppins', sans-serif;
-    background: #ffffff;
-    padding: 0 2rem;
 }
 
-/* LEFT SIDE */
 .homeLeft {
-    flex: 1;
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
+    margin-top: 10vh;
 }
 
-/* HERO BLOCK */
 .homeName {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
     align-items: flex-start;
 }
 
-/* GREETING */
-.hi {
-    font-size: 1rem;
-    font-weight: 500;
-    color: #6b7280;
+.homeName > h2 {
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
 }
 
-/* NAME */
-.bigText {
-    font-size: 3.4rem;
+.homeName > h1 {
+    color: #8D93AB;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    color: #111827;
-    letter-spacing: -1px;
-    line-height: 1.1;
+    font-size: 55px;
 }
 
-.bigText span {
-    background: linear-gradient(90deg, #7c4eee, #ff3c5f);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.homeName > h1 > span {
+    color: #7C4EEE;
 }
 
-/* ROLE */
-.roleText {
-    font-size: 1.1rem;
-    font-weight: 500;
-    color: #6b7280;
+.homeName > :nth-child(3) {
+    color: #6B7280;
+    font-size: 22px;
+    font-weight: 600;
 }
 
-/* DESCRIPTION */
-.subText {
-    font-size: 1rem;
-    line-height: 1.7;
-    max-width: 560px;
-    color: #4b5563;
-}
-
-/* LOCATION BADGE */
-.locationBadge {
-    display: inline-flex;
-    align-items: center;
-    padding: 6px 12px;
-    font-size: 0.85rem;
-    border-radius: 999px;
-    background: #f3f4f6;
-    color: #374151;
-    border: 1px solid #e5e7eb;
-    width: fit-content;
-}
-
-/* BUTTON (STRIPE STYLE) */
+/* BUTTON (original gradient style restored) */
 .homeButton {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+                rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 
-    padding: 12px 18px;
-    border-radius: 10px;
+    border-radius: 7px;
+    border: none;
+    padding: 13px 18px;
 
-    font-size: 16px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
 
-    color: #ffffff;
-    background: #111827;
+    width: max-content;
 
-    border: none;
-    cursor: pointer;
-
-    transition: all 0.2s ease;
-    width: fit-content;
+    background: linear-gradient(to right, #FF3C5F 0%, #9340FF 100%);
 }
 
 .homeButton:hover {
-    background: #000000;
-    transform: translateY(-2px);
+    background: #FFFFFF;
+    color: #7C4EEE;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),
+                0 6px 20px 0 rgba(0,0,0,0.10);
 }
 
-/* RIGHT SIDE IMAGE */
 .homeRight {
-    flex: 1;
     display: flex;
-    justify-content: center;
+    position: relative;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin: auto;
 }
 
-.homeRight img {
-    width: 28rem;
-    max-width: 100%;
-    filter: drop-shadow(0px 20px 40px rgba(0,0,0,0.08));
-    transition: transform 0.3s ease;
+.icons {
+    display: flex;
+    gap: 1rem;
 }
 
-.homeRight img:hover {
-    transform: translateY(-5px);
+.homeIcon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #7C4EEE;
+    font-size: 2rem;
+    gap: 1rem;
+    position: relative;
 }
 
-/* RESPONSIVE */
-@media screen and (max-width: 768px) {
+.homeIcon:hover {
+    color: #5f35c8;
+}
+
+/* MOBILE */
+@media screen and (max-width:768px) {
     .home {
         flex-direction: column;
-        height: auto;
-        padding: 4rem 1.5rem;
-        text-align: left;
-    }
-
-    .bigText {
-        font-size: 2.4rem;
+        height: fit-content;
+        padding: 10% 0;
     }
 
     .homeRight {
         display: none;
+    }
+
+    .homeName > h1 {
+        font-size: 33px;
+    }
+
+    .homeName > :nth-child(3) {
+        font-size: 15px;
+    }
+
+    .homeButton {
+        padding: 9px 13px;
+        font-size: 15px;
     }
 }
